@@ -5,7 +5,8 @@
                 <lightning-datatable 
                     key-field="limitName"
                     data={orglimits.data}
-                    columns={columns}>
+                    columns={columns}
+                    hide-checkbox-column>
                 </lightning-datatable>
             </template>
             <template if:true={orglimits.error}>
