@@ -2,6 +2,8 @@
 
 Project provides LWC to show all the org limits in a single view. Work is underway to collect historical usage, add more analytics features and D3 charting capabilities
 
+![Org Limits Dashboard](https://github.com/sritheturbocoder/sfdc-lwcorglimits/blob/master/OrgLimitsDashboard.png)
+
 ## How to deploy component ?
 
 ```
