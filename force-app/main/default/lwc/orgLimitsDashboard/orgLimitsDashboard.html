@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Org Limits Dashboard" icon-name="custom:custom63">
+        <div class="slds-m-around_medium">
+            <template if:true={orglimits.data}>
+                <lightning-datatable 
+                    key-field="limitName"
+                    data={orglimits.data}
+                    columns={columns}>
+                </lightning-datatable>
+            </template>
+            <template if:true={orglimits.error}>
+                <!-- handle Apex error -->
+            </template>
+        </div>
+    </lightning-card>
+</template>
