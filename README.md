@@ -1,16 +1,24 @@
-# Salesforce DX Project: Next Steps
+# About this Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Project provides LWC to show all the org limits in a single view. Work is underway to collect historical usage, add more analytics features and D3 charting capabilities
 
-## How Do You Plan to Deploy Your Changes?
+## How to deploy component ?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+```
+git clone git@github.com:sritheturbocoder/sfdc-lwcorglimits.git
+```
+And you will find necessary classes and components inside force-app / main / default / lwc
+
+work is underway to create unlocked package for this component.
+
+This development is under progress so use at your own risk :-)
+
 
 ## Configure Your Salesforce DX Project
 
 The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-## Read All About It
+## SFDX Read All About It
 
 - [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
