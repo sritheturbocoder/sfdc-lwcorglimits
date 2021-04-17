@@ -6,7 +6,7 @@ const COLS = [
     { label: 'Limit Usage', fieldName: 'limitUsage' },
     { label: 'Max Limit', fieldName: 'maxLimit' },
     { label: 'Usage Percentage', fieldName: 'usagePercentage' },
-    { label: 'Usage Metric', fieldName: 'usageMetric', type: 'proRing' },
+    { label: 'Usage', fieldName: 'usage', type: 'proRing' },
 ];
 
 export default class OrgLimitsDashboard extends LightningElement {
