@@ -2,12 +2,12 @@
     <lightning-card title="Org Limits Dashboard" icon-name="action:preview">
         <div class="slds-m-around_medium">
             <template if:true={orglimits.data}>
-                <lightning-datatable 
+                <c-progress-ring-datatable-comp 
                     key-field="limitName"
                     data={orglimits.data}
                     columns={columns}
                     hide-checkbox-column>
-                </lightning-datatable>
+                </c-progress-ring-datatable-comp>
             </template>
             <template if:true={orglimits.error}>
                 <!-- handle Apex error -->
